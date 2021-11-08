@@ -1,13 +1,11 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
-        int sum = scanner.nextInt() + scanner.nextInt();
-        System.out.println("SOMA = " + sum);
+        System.out.println("SOMA = " + (scanner.nextInt() + scanner.nextInt()));
 
         scanner.close();
     }

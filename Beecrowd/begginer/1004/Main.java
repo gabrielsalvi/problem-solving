@@ -4,10 +4,9 @@ public class Main {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("PROD = " + (scanner.nextInt() * scanner.nextInt()));
 
-        int product = scanner.nextInt() * scanner.nextInt();
         scanner.close();
-
-        System.out.println("PROD = " + product);
     }
 }
