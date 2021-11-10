@@ -1,4 +1,6 @@
 # 1000 - Hello World!
+### Created by Jean Bez, Brazil <span>&#x1f1e7;&#x1f1f7;</span>
+---
 
 Welcome to **beecrowd**!
 
@@ -15,5 +17,3 @@ You must print the message Hello World! and then the endline as shown below.
 | Input Sample | Output Sample |
 | --- | --- |
 || Hello World! |
-
-
