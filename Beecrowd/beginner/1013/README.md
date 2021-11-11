@@ -4,7 +4,9 @@
 
 Make a program that reads 3 integer values and present the greatest one followed by the message "eh o maior". Use the following formula:</br></br>
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;MaiorAB=\frac{(a + b + abs(a - b))}{2}" title="\Large MaiorAB=\frac{(a + b + abs(a - b))}{2}"/>
+                (a  +  b  +  abs(a  -  b))
+    MaiorAB  =  --------------------------
+                         2            
 
 ## Input
 
