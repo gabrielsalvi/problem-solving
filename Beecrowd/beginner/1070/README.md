@@ -1,4 +1,4 @@
-# 1068 - Six Odd Numbers
+# 1070 - Six Odd Numbers
 ### Adapted by Neilor Tonin, Brazil <span>&#x1f1e7;&#x1f1f7;</span>
 ---
 
