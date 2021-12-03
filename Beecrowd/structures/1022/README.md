@@ -1,5 +1,5 @@
 # 1022 - TDA Rational
-### By Neilor Tonin, Brazil <span>&#x1f1e7;&#x1f1f7;</span>
+### By Neilor Tonin, Brazil <span>&#x1f1e7;&#x1f1f7;</span> 
 ---
 
 You were invited to do a little job for your Mathematic teacher. The job is to read a Mathematic expression in format of two rational numbers (numerator / denominator) and present the result of the operation. Each operand or operator is separated by a blank space. The input sequence (each line) must respect the following format: number, (‘/’ char), number, operation char (‘/’, ‘*’, ‘+’, ‘-‘), number, (‘/’ char), number. The answer must be presented followed by ‘=’ operator and the simplified answer. If the answer can’t be simplified, it must be repeated after a ‘=’ operator.

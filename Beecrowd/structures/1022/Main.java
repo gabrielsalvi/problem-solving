@@ -20,7 +20,9 @@ public class Main {
 
             Rational result = Rational.calculateOperation(operator, r1, r2);
 
-            System.out.println(result.getNumerator() + " / " + result.getDenominator());
+            int mdc = Rational.calculateMDC(result.getNumerator(), result.getDenominator());
+
+            System.out.printf("%s/%s = %s/%s\n", result.getNumerator(), result.getDenominator(), result.getNumerator()/mdc, result.getDenominator()/mdc);
 
         }
 
@@ -68,6 +70,15 @@ class Rational {
             default:
                 return new Rational();
         }
+    }
+
+    public static int calculateMDC(int numerator, int denominator) {
+        
+        if(Math.abs(numerator) % Math.abs(denominator) == 0)
+		    return denominator;
+        else
+            return calculateMDC(Math.abs(denominator), Math.abs(numerator) % Math.abs(denominator));
+
     }
 
     private static Rational add(Rational r1, Rational r2) {
