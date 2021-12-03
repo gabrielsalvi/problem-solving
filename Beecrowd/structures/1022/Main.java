@@ -74,10 +74,13 @@ class Rational {
 
     public static int calculateMDC(int numerator, int denominator) {
         
-        if(Math.abs(numerator) % Math.abs(denominator) == 0)
+        numerator = Math.abs(numerator);
+        denominator = Math.abs(denominator);
+
+        if(numerator % denominator == 0)
 		    return denominator;
         else
-            return calculateMDC(Math.abs(denominator), Math.abs(numerator) % Math.abs(denominator));
+            return calculateMDC(denominator, numerator % denominator);
 
     }
 
